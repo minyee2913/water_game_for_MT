@@ -1,7 +1,12 @@
 self.__BUILD_MANIFEST = {
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/water_game_for_MT//_next/:path+",
+        "destination": "/water_game_for_MT/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
